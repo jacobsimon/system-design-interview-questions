@@ -1,0 +1,22 @@
+---
+---
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Inter:wght@400;600&display=swap');
+@import "{{ site.theme }}";
+
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+
+.page-header {
+  background-color: #6E2BF0;
+  background-image: linear-gradient(120deg, #0E1117 0%, #6E2BF0 100%);
+  .project-name, .project-tagline { font-family: 'Sora', sans-serif; }
+}
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 { color: #0E1117; font-family: 'Sora', sans-serif; }
+  > h1:first-child { display: none; }
+  a { color: #6E2BF0; }
+  blockquote { border-left: 0.3rem solid #FDC700; color: #6B7280; }
+  table th { color: #0E1117; }
+}
+
+.btn:hover { background-color: rgba(255, 255, 255, 0.3); }
